@@ -56,7 +56,7 @@ export default function Header() {
                                 <button className="hidden md:flex" onClick={() => setShowSearch(true)}>
                                     <Image src={Search} alt="Search" />
                                 </button>
-                                <Link href={'/signup'}>
+                                <Link href={'/SignUp'}>
                                     <Image src={User} alt="User" />
                                 </Link>
                                 <button onClick={() => setShowCart(true)}>
